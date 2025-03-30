@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+	<script type="text/javascript">
+		function changeText(){
+			var fistNumber = 19;
+			var secondNumber = 29;
+			document.getElementById('text01_id').innerHTML = fistNumber;
+			document.getElementById('text02_id').innerHTML = secondNumber;
+			document.getElementById('button01_id').innerHTML = fistNumber + "*" + secondNumber + "=" + fistNumber * secondNumber;
+		}
+	</script>
+<body>
+	<div id="text01_id">Hello</div>
+	<div id="text02_id">nice</div>
+	<button id="button01_id" onclick="changeText()">click</button>
+</body>
+</html>

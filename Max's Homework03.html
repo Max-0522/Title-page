@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script type="text/javascript">
+		function changeText() {
+
+			document.getElementById('button_id').innerHTML = "Already clicked";
+		}
+
+		function changeLastText() {
+
+			document.getElementById('button_id').innerHTML = " Click";
+		}
+	</script>
+</head>
+<body>
+	<button onclick="changeText()" id="button_id">Click</button><br><br>
+	<button onclick="changeLastText()">get back</button>
+</body>
+</html>

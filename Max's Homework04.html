@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script type="text/javascript">
+		var number02 = 3;
+		var number01 = 2;
+		function plusTwo(){
+			number02 = number02 + 2
+			document.getElementById('button02_id').innerHTML = number02;
+		}
+
+		function plusThree(){
+			number01 = number01 +3
+			document.getElementById('button01_id').innerHTML = number01;
+		}
+	</script>
+</head>
+<body>
+	<button id="button01_id" onclick="plusTwo()">2</button>
+	<button id="button02_id" onclick="plusThree()">3</button>
+</body>
+</html>
